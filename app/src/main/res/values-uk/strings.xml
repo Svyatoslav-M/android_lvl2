@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--My profile activity-->
+    <string name="app_name">HomeWork_1</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="log_out_button_my_profile">Вийти</string>
+    <string name="settings_text_my_profile">Налаштування</string>
+    <string name="name_text_my_profile">ім\'я</string>
+    <string name="career_text_my_profile">Кар\'єра</string>
+    <string name="home_address_text_my_profile">Домашня адреса</string>
+    <string name="edit_profile_button">Редагувати профіль</string>
+    <string name="view_my_contacts_button">ПЕРЕГЛЯНУТИ МОЇ КОНТАКТИ</string>
+
+    <!--Auth activity-->
+    <string name="mainText_authActivity">Давайте познайомимося</string>
+    <string name="secondaryText_authActivity">Заповнюйте анкету та переходьте до заявки!</string>
+    <string name="e_mail_text_auth_activity">Пошта</string>
+    <string name="password_text_auth_activity">Пароль</string>
+    <string name="remember_me_checkbox_auth_activity">Запам\'ятати мене</string>
+    <string name="google_button">GOOGLE</string>
+    <string name="or_text_auth_activity">або</string>
+    <string name="register_button_auth_activity">Зареєструватися</string>
+    <string name="terms_and_conditions_auth_activity">Натискаючи зареєструватися, ви погоджуєтеся з нашими Умовами\n та положеннями</string>
+    <string name="already_have_an_account_auth_activity">Вже маєте акаунт?</string>
+    <string name="sign_in_auth_activity">Увійти</string>
+    <string name="email_error">Неправильна електронна адреса</string>
+    <string name="password_error">Ваш пароль повинен містити мінімум 8 символів</string>
+</resources>

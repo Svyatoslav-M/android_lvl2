@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimensions for auth activity-->
+    <dimen name="top_padding">120dp</dimen>
+    <dimen name="margin_between_main_text_and_secondary_text">16dp</dimen>
+    <dimen name="email_top_margin">24dp</dimen>
+    <dimen name="password_top_margin">16dp</dimen>
+    <dimen name="google_button_top_margin">70dp</dimen>
+    <dimen name="google_ImageView_w_h">24dp</dimen>
+    <dimen name="google_vertical_padding">8dp</dimen>
+    <dimen name="google_button_horizontal_gap">10dp</dimen>
+    <dimen name="or_top_margin">8dp</dimen>
+    <dimen name="register_button_top_margin">8dp</dimen>
+    <dimen name="register_button_min_h">58dip</dimen>
+    <dimen name="terms_and_conditions_top_margin">16dp</dimen>
+    <dimen name="already_have_an_acc_sign_in_top_margin">16dp</dimen>
+    <dimen name="already_have_an_acc_sign_in_left_and_right_margin">42dp</dimen>
+    <dimen name="main_text_size">30sp</dimen>
+    <dimen name="secondary_text_size">16sp</dimen>
+    <dimen name="email_password_remember_me_text_size">14sp</dimen>
+    <dimen name="buttons_text_size">16sp</dimen>
+    <dimen name="or_text_Size">20sp</dimen>
+    <dimen name="terms_and_conditions_text_size">14sp</dimen>
+    <dimen name="already_have_an_acc_sign_in_text_size">14sp</dimen>
+
+    <!--Dimensions for my profile activity-->
+    <dimen name="settingsText_marginStart">16dp</dimen>
+    <dimen name="settingsText_marginTop">16dp</dimen>
+    <dimen name="settingsText_textSize">28sp</dimen>
+    <dimen name="logOutButton_marginEnd">16dp</dimen>
+    <dimen name="logOutButton_minHeight">40dip</dimen>
+    <dimen name="logOutButton_textSize">12sp</dimen>
+    <dimen name="profileImage_w_h">113dp</dimen>
+    <dimen name="profileImage_marginTop">16dp</dimen>
+    <dimen name="name_textSize">18sp</dimen>
+    <dimen name="name_marginTop">16dp</dimen>
+    <dimen name="career_textSize">14sp</dimen>
+    <dimen name="career_marginTop">8dp</dimen>
+    <dimen name="homeAddress_textSize">14sp</dimen>
+    <dimen name="homeAddress_marginTop">16dp</dimen>
+    <dimen name="socialNetworkCircle_w_h">70dp</dimen>
+    <dimen name="facebookIcon_w_h">25dp</dimen>
+    <dimen name="inIcon_w_h">40dp</dimen>
+    <dimen name="instagramIcon_w_h">45dp</dimen>
+    <dimen name="editProfileButton_margin_bottom">16dp</dimen>
+    <dimen name="editProfileButton_min_height">40dip</dimen>
+    <dimen name="viewMyContactsButton_margin_start_end">16dp</dimen>
+    <dimen name="viewMyContactsButton_margin_bottom">8dp</dimen>
+    <dimen name="viewMyContactsButton_min_height">55dip</dimen>
+    <dimen name="viewMyContactsButton_text_size">16sp</dimen>
+</resources>

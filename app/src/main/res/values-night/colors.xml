@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth activity night mode colors-->
+    <color name="primary_background">#B5B5B5</color>
+    <color name="secondary_background">#EEEEEE</color>
+    <color name="black">#FF000000</color>
+    <color name="primary_text">#FF000000</color>
+    <color name="secondary_text">#00FFD5</color>
+    <color name="google_button">#FFFFFFFF</color>
+    <color name="google_button_text">#FF000000</color>
+    <color name="button_register">#00FFD5</color>
+    <color name="button_register_text">#FF000000</color>
+    <color name="error">#cc0000</color>
+    <color name="checkbox">#FF000000</color>
+
+    <!--My profile activity night mode colors-->
+    <color name="button_view_my_contacts">#00FFD5</color>
+    <color name="socialNetwork_circle">#00FFD5</color>
+</resources>
