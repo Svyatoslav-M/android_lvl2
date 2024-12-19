@@ -48,4 +48,21 @@
     <dimen name="viewMyContactsButton_margin_bottom">8dp</dimen>
     <dimen name="viewMyContactsButton_min_height">55dip</dimen>
     <dimen name="viewMyContactsButton_text_size">16sp</dimen>
+
+    <!--Dimensions for my contacts activity-->
+    <dimen name="contacts_textSize">28sp</dimen>
+    <dimen name="contacts_margin_top">8dp</dimen>
+    <dimen name="back_arrow_and_search_w_h">30dp</dimen>
+    <dimen name="back_arrow_and_search_margin_start_end">16dp</dimen>
+    <dimen name="add_contacts_textSize">16sp</dimen>
+    <dimen name="add_contacts_margin_top">16dp</dimen>
+
+    <!--Dimensions for contact item-->
+    <dimen name="background_inside_padding">15dp</dimen>
+    <dimen name="background_corner_radius">5dp</dimen>
+    <dimen name="background_border_width">2dp</dimen>
+    <dimen name="contact_image_w_h">40dp</dimen>
+    <dimen name="trash_bin_w_h">40dp</dimen>
+    <dimen name="name_surname_textSize">18sp</dimen>
+    <dimen name="career_surname_textSize">12sp</dimen>
 </resources>

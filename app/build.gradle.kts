@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.smelnykov.homework_1"
+    namespace = "com.smelnykov.shpp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.smelnykov.homework_1"
+        applicationId = "com.smelnykov.shpp"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
@@ -45,6 +45,8 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+
 }
 
 dependencies {

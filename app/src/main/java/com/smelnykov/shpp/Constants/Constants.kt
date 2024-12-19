@@ -1,4 +1,4 @@
-package com.smelnykov.homework_1.Constants
+package com.smelnykov.shpp.Constants
 
 /**
  * Object with constants

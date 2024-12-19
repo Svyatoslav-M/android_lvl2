@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Ukrainian version-->
     <!--My profile activity-->
     <string name="app_name">HomeWork_1</string>
     <string name="title_activity_main2">MainActivity2</string>
@@ -25,4 +26,12 @@
     <string name="sign_in_auth_activity">Увійти</string>
     <string name="email_error">Неправильна електронна адреса</string>
     <string name="password_error">Ваш пароль повинен містити мінімум 8 символів</string>
+
+    <!--My contacts activity-->
+    <string name="contacts_my_contacts_activity">Контакти</string>
+    <string name="add_contacts_my_contacts_activity">Додати контакти</string>
+
+    <!--Contacts item-->
+    <string name="name_surname_contacts_item">ім\'я прізвище</string>
+    <string name="career_contacts_item">Кар\'єрае</string>
 </resources>

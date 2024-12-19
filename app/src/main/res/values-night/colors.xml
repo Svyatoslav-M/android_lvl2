@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Night mod colors-->
     <!--Auth activity night mode colors-->
     <color name="primary_background">#B5B5B5</color>
     <color name="secondary_background">#EEEEEE</color>
@@ -16,4 +17,14 @@
     <!--My profile activity night mode colors-->
     <color name="button_view_my_contacts">#00FFD5</color>
     <color name="socialNetwork_circle">#00FFD5</color>
+
+    <!--My contacts activity colors-->
+    <color name="view_search">#00FFD5</color>
+    <color name="view_arrow_back">#00FFD5</color>
+
+    <!--Contacts item colors-->
+    <color name="contacts_item_border">#FF000000</color>
+    <color name="contacts_name_surname">#18181F</color>
+    <color name="contacts_career">#00FFD5</color>
+    <color name="delete_bin">#00FFD5</color>
 </resources>

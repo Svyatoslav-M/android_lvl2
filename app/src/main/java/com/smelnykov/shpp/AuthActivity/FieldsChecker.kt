@@ -1,9 +1,7 @@
-package com.smelnykov.homework_1.AuthActivity
+package com.smelnykov.shpp.AuthActivity
 
 import android.util.Patterns
-import android.widget.EditText
-import androidx.appcompat.widget.AppCompatTextView
-import com.smelnykov.homework_1.Constants.Constants
+import com.smelnykov.shpp.Constants.Constants
 
 /**
  * Object for checking email and passwords fields.
