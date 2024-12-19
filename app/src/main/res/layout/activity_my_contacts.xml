@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyContacts.MyContacts">
+
+    <View
+        android:id="@+id/view_top_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/primary_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/contacts_margin_top"
+        android:fontFamily="@font/open_sans_medium"
+        android:text="@string/contacts_my_contacts_activity"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/contacts_textSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/view_search"
+        app:layout_constraintStart_toEndOf="@+id/view_arrow_back"
+        app:layout_constraintTop_toTopOf="@+id/view_top_view" />
+
+    <View
+        android:id="@+id/view_search"
+        android:layout_width="@dimen/back_arrow_and_search_w_h"
+        android:layout_height="@dimen/back_arrow_and_search_w_h"
+        android:layout_marginEnd="@dimen/back_arrow_and_search_margin_start_end"
+        android:background="@drawable/baseline_search_24"
+        android:backgroundTint="@color/view_search"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_contacts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView_contacts"
+        app:layout_constraintTop_toTopOf="@+id/textView_contacts" />
+
+    <View
+        android:id="@+id/view_arrow_back"
+        android:layout_width="@dimen/back_arrow_and_search_w_h"
+        android:layout_height="@dimen/back_arrow_and_search_w_h"
+        android:layout_marginStart="@dimen/back_arrow_and_search_margin_start_end"
+        android:background="@drawable/baseline_arrow_back_24"
+        android:backgroundTint="@color/view_arrow_back"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_contacts"
+        app:layout_constraintEnd_toStartOf="@+id/textView_contacts"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView_contacts" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_addContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/add_contacts_margin_top"
+        android:text="@string/add_contacts_my_contacts_activity"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/add_contacts_textSize"
+        app:layout_constraintBottom_toBottomOf="@+id/view_top_view"
+        app:layout_constraintStart_toStartOf="@+id/view_arrow_back"
+        app:layout_constraintTop_toBottomOf="@+id/view_arrow_back">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_top_view" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

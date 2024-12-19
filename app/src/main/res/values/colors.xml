@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Day mod colors-->
     <!--Auth activity colors-->
     <color name="primary_background">#242235</color>
     <color name="secondary_background">#FFFFFFFF</color>
@@ -13,6 +14,17 @@
     <color name="error">#cc0000</color>
     <color name="checkbox">#FFFFFFFF</color>
 
+    <!--My profile activity colors-->
     <color name="button_view_my_contacts">#FB5E06</color>
     <color name="socialNetwork_circle">#FB5E06</color>
+
+    <!--My contacts activity colors-->
+    <color name="view_search">#FFFFFFFF</color>
+    <color name="view_arrow_back">#FFFFFFFF</color>
+
+    <!--Contacts item colors-->
+    <color name="contacts_item_border">#B2B2B3</color>
+    <color name="contacts_name_surname">#18181F</color>
+    <color name="contacts_career">#828282</color>
+    <color name="delete_bin">#FB5E06</color>
 </resources>
