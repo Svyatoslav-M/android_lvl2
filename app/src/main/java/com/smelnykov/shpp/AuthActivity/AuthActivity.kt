@@ -1,4 +1,4 @@
-package com.smelnykov.homework_1.AuthActivity
+package com.smelnykov.shpp.AuthActivity
 
 import android.content.Context
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.smelnykov.homework_1.Constants.Constants
-import com.smelnykov.homework_1.MyProfileActivity.MyProfileActivity
-import com.smelnykov.homework_1.databinding.ActivityAuthBinding
+import com.smelnykov.shpp.Constants.Constants
+import com.smelnykov.shpp.MyProfileActivity.MyProfileActivity
+import com.smelnykov.shpp.databinding.ActivityAuthBinding
 
 /**
  * Class for activity with authentication.

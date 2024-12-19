@@ -1,16 +1,13 @@
-package com.smelnykov.homework_1.MyProfileActivity
+package com.smelnykov.shpp.MyProfileActivity
 
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
-import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.smelnykov.homework_1.AuthActivity.AuthActivity
-import com.smelnykov.homework_1.AuthActivity.FieldsChecker
-import com.smelnykov.homework_1.Constants.Constants
-import com.smelnykov.homework_1.databinding.ActivityMyProfileBinding
+import com.smelnykov.shpp.AuthActivity.AuthActivity
+import com.smelnykov.shpp.Constants.Constants
+import com.smelnykov.shpp.databinding.ActivityMyProfileBinding
 
 /**
  * Class for my profile activity.
